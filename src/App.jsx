@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import './App.css'
+import BlueBox from './BlueBox'
+import RedBox from './RedBox'
 
 const App = () => {
 const [isActive, setActive] = useState(true);
